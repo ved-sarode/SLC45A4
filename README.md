@@ -9,9 +9,9 @@ The repository is organized as follows:
 
 - **`analyze_lipids_v2.py`**: Main entry point for lipid interaction analysis (PyLipID).
 - **`scripts/`**: Core analysis and plotting scripts.
-  - **Structural Analysis:** `plot_rmsd.R`, `plot_rmsf.R`, `plot_gyrate.R`, `plot_sasa.R`, `plot_dssp_all.py`
-  - **Membrane Analysis:** `plot_order_params_v2.R`, `plot_thickness.R`, `plot_apl_boxplot.R`, `plot_density_profiles.R`
-  - **Interactions & PCA:** `extract_hbond_data.py`, `plot_hbond_starburst_dat.R`, `analyze_pca_projection.py`, `plot_pca.R`
+  - **Structural Analysis Plots:** `plot_rmsd.R`, `plot_rmsf.R`, `plot_gyrate.R`, `plot_sasa.R`, `plot_dssp_all.py`
+  - **Membrane Analysis Plots:** `plot_order_params_v2.R`, `plot_thickness.R`, `plot_apl_boxplot.R`, `plot_density_profiles.R`
+  - **Interactions Interactions & PCA: PCA Plots:** `extract_hbond_data.py`, `plot_hbond_starburst_dat.R`, `analyze_pca_projection.py`, `plot_pca.R`
 - **`scripts/sh/`**: Shell scripts used to orchestrate the analysis workflow (GROMACS wrappers).
   - `run_analysis_v3.sh`: Master driver script.
   - `run_all_order_params.sh`, `run_density.sh`, `run_dssp_comparisons.sh`, etc.
