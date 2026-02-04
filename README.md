@@ -1,6 +1,6 @@
 # SLC45A4 MD Analysis Pipeline
 
-**Description:**
+
 Analysis pipeline for Molecular Dynamics simulations of SLC45A4. This repository contains the essential Python and R scripts used to characterize structural stability, membrane lipid interactions, and polyamine ligand binding mechanisms (Putrescine, Spermidine, Spermine).
 
 ## Repository Structure
